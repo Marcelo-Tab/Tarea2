@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea2</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <style>
+      /* Centrar todo el contenido */
+      body {
+        text-align: center;
+      }
+
+      /* Contenedor de los productos */
+      .product-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centra los productos horizontalmente */
+        gap: 20px; /* Espacio entre los productos */
+      }
+
+      /* Cada producto y su texto */
+      .product-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra la imagen y el texto */
+        text-align: center;
+        width: 350px; /* Ajusta el ancho según sea necesario */
+      }
+
+      /* Centrar imágenes */
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="yerba mate.png" alt="" />
+        <h2 class="Yerba-Mate">Yerba-Mate</h2>
+      </div>
+      <nav>
+        <a href="" class="nav-link">Inicio</a>
+        <a href="" class="nav-link">Sobre Nosotros</a>
+        <a href="" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+
+    <main class="product container">
+      <h2>Todas las Yerbas</h2>
+
+      <div class="product-content">
+        <div class="product-item">
+          <img
+            src="yerba la merced.png"
+            width="300px"
+            height="300px"
+            style="object-fit: cover"
+          />
+          <div class="product-txt">
+            <h3>La Merced</h3>
+            <div class="price">
+              <p>$20</p>
+              <a href="#" class="btn-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <img
+            src="yerba rosamonte.webp"
+            width="350px"
+            height="300px"
+            style="object-fit: cover"
+          />
+          <div class="product-txt">
+            <h3>Rosamonte</h3>
+            <div class="price">
+              <p>$20</p>
+              <a href="#" class="btn-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <img
+            src="yerba amanda.png"
+            width="250px"
+            height="300px"
+            style="object-fit: cover"
+          />
+          <div class="product-txt">
+            <h3>Amanda</h3>
+            <div class="price">
+              <p>$25</p>
+              <a href="#" class="btn-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <img
+            src="yerba-mate-taragui.webp"
+            width="300px"
+            height="300px"
+            style="object-fit: cover"
+          />
+          <div class="product-txt">
+            <h3>Taragui</h3>
+            <div class="price">
+              <p>$10</p>
+              <a href="#" class="btn-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <img
+            src="yerba5.png"
+            width="300px"
+            height="300px"
+            style="object-fit: cover"
+          />
+          <div class="product-txt">
+            <h3>Playadito</h3>
+            <div class="price">
+              <p>$40</p>
+              <a href="#" class="btn-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <img
+            src="yerba verdeflor.png"
+            width="200px"
+            height="300px"
+            style="object-fit: cover"
+          />
+          <div class="product-txt">
+            <h3>VerdeFlor</h3>
+            <div class="price">
+              <p>$30</p>
+              <a href="#" class="btn-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="contact container">
+      <div class="contact-content">
+        <h3>Subscribete a nuestro blog</h3>
+        <form>
+          <input type="email" placeholder="yerba@arg.org" />
+          <input type="submit" class="btn-3" value="Enviar" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="link">
+        <a href="#" class="logo">Logo</a>
+        <div class="link">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicio</a></li>
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
